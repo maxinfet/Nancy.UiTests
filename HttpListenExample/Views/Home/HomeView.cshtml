@@ -1,0 +1,12 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<RemoteAutomation.Models.HomeModel>
+<html>
+<head>
+
+</head>
+<body>
+    <p>Input two values to be added</p>
+    <form action="/add" method="post">
+        <input type="number" name="X" value="0"/> + <input type="number" name="Y" value="0"/> <input type="submit" value="=" />
+    </form>
+</body>
+</html>
